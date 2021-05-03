@@ -61,3 +61,9 @@ expo install expo-app-loading
 
 [Dice on Udemy](https://www.udemy.com/course/complete-react-native-bootcamp/learn/lecture/14089082#questions 'Igneus Technologies Best Comprehensive Courses')  
 [learncodeonline.in/reactnative/](https://learncodeonline.in/reactnative/ 'React Native exercise files')
+
+<!-- [I'm an inline-style link with title](https://www.google.com "Google's Homepage")   -->
+
+[7-DeletingItem](https://codewithmosh.com/courses/887220/lectures/16687900 '7- Deleting an Item ')  
+[5-Switch-1:42](https://codewithmosh.com/courses/887220/lectures/16762427 '5- Switch')  
+[8-Modal-4:32](https://www.google.com '8- Modal')
