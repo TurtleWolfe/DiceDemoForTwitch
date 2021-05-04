@@ -32,25 +32,34 @@ const diceface = [
   },
 
 ]
-
 export default function Dice() {
-  const [dice, setDice] = useState(diceface);
-
-  // function = onPress={() => console.log("rolled dice",)}
-
+  const [dice, setDice] = useState();
+  // const [rerolls, setrerolls] = useState(3);
+  // const [lockedIn, setlockedIn] = useState(true);
+  // function = onPress={() => setDice(99)}
   return (
     <TouchableOpacity
-    //  onPress={onPress}
+      // onPress={() => setDice(99)}
+      onPress={() => setDice(Math.floor(Math.random() * 6) + 1)}
     >
-      <Text style={styles.dice}>Dice</Text>
+      <View style={styles.container}>
+        <Text style={styles.diceText}>{dice}</Text>
+      </View>
     </TouchableOpacity>
   )
 }
 
 const styles = StyleSheet.create({
-  dice: {
-    fontSize: 40,
+  container: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 60,
+    width: 60,
+    backgroundColor: 'orange'
+  },
+  diceText: {
+    fontSize: 30,
     fontWeight: 'bold',
     color: 'blue',
   },
-})
+});

@@ -9,6 +9,10 @@ export default function TabOneScreen() {
     <View style={styles.container}>
       {/* <Text style={styles.title}>Tab One</Text> */}
       <Dice></Dice>
+      <Dice></Dice>
+      <Dice></Dice>
+      <Dice></Dice>
+      <Dice></Dice>
       {/* <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" /> */}
       {/* <EditScreenInfo path="/screens/TabOneScreen.tsx" /> */}
     </View>
@@ -18,8 +22,10 @@ export default function TabOneScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'space-around',
+
   },
   title: {
     fontSize: 20,
